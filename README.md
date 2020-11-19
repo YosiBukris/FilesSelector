@@ -1,5 +1,4 @@
 ### FilesSelector
-![GitHub](https://img.shields.io/github/license/YosiBukris/FilesSelector)
 [![](https://jitpack.io/v/YosiBukris/FilesSelector.svg)](https://jitpack.io/#YosiBukris/FilesSelector)
 [![API](https://img.shields.io/badge/API-18%2B-green.svg?style=flat)]()
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Files%20Selector%20-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7577)
