@@ -40,7 +40,8 @@ fs is the fileSelector attribute
 There is 4 functions you can use:
  * openFileToImageView(MimsType mimeType, ImageView imageView)
  * openFileToList(MimsType mimeType, List list)
- * openFileToUpload(MimsType mimeType, String urlString, String title, String description) - to use it you have to send a working "post" url of your server 
+ * openFileToUpload(MimsType mimeType, String urlString, String title, String description) -
+                to use this method you have to send a working "post" url of your server
  * getFileUri(MimsType mimeType, String outPutString)
  
 
