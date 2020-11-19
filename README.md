@@ -1,14 +1,14 @@
-# FilesSelector
+### FilesSelector
 files selector libary
 
-## Dependency
+# Dependency
 Add this to your module's `build.gradle` file (Note: version should match the jitpack badge above)
 ```
 dependencies {
 	implementation 'com.github.Amit7474:Dolly-SharedPreferences:1.0.0'
 }
 
-## FileSelector
+# FileSelector
 to create file selector from your activity define fs in your attributs -
         private FilesSelectorActivity fs;
 then initial it:
