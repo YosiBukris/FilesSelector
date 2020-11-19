@@ -32,6 +32,6 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
     implementation project(path: ':filesSelector')
-    implementation 'com.github.Amit7474:Dolly-SharedPreferences:1.0.0'
     testImplementation 'junit:junit:4.+'
+    implementation 'com.github.User:Repo:Tag'
 }
