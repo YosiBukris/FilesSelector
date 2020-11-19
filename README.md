@@ -2,7 +2,7 @@
 ![GitHub](https://img.shields.io/github/license/YosiBukris/FilesSelector)
 [![](https://jitpack.io/v/YosiBukris/FilesSelector.svg)](https://jitpack.io/#YosiBukris/FilesSelector)
 [![API](https://img.shields.io/badge/API-18%2B-green.svg?style=flat)]()
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Smart%20Rate%20Us%20Dialog-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7577)
+[![Android Arsenal](https://img.shields.io/badge/Files%20Arsenal-Selector%20-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7577)
 ![GitHub repo size](https://img.shields.io/github/repo-size/YosiBukris/FilesSelector)
 Files selector libary
 
