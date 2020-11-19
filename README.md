@@ -22,7 +22,7 @@ allprojects {
 Step 2. Add the dependency:
 ```
 dependencies {
-	implementation 'com.github.YosiBukris:FilesSelector:1e78f367c2'
+	implementation 'com.github.YosiBukris:FilesSelector:1.0.0'
 }
 ```
 
