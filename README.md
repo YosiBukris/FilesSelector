@@ -4,8 +4,10 @@
 [![API](https://img.shields.io/badge/API-18%2B-green.svg?style=flat)]()
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Files%20Selector%20-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7577)
 ![GitHub repo size](https://img.shields.io/github/repo-size/YosiBukris/FilesSelector)
+```
 Files selector libary
-
+Use this libary to use files from you device storage
+```
 ## Setup
 
 Step 1. Add it in your root build.gradle at the end of repositories:
