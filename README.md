@@ -22,7 +22,7 @@ allprojects {
 Step 2. Add the dependency:
 ```
 dependencies {
-	implementation 'com.github.Amit7474:Dolly-SharedPreferences:1.0.0'
+	implementation 'com.github.YosiBukris:FilesSelector:Tag'
 }
 ```
 
