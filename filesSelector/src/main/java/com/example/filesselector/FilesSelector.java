@@ -45,7 +45,7 @@ public class FilesSelector implements FileSelectorInterface {
         this.myActivity = myActivity;
     }
 
-    public void openFile(MimsType mimeType, @Nullable callBackFunction callBack) {
+    private void openFile(MimsType mimeType, @Nullable callBackFunction callBack) {
         this.myType = mimeType.getType();
         if (callBack != null)
             this.callBack = callBack;
