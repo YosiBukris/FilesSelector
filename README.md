@@ -19,7 +19,7 @@ dependencies {
 	implementation 'com.github.Amit7474:Dolly-SharedPreferences:1.0.0'
 }
 
-# Usage
+## Usage
 to create file selector from your activity define fs in your attributs -
         private FilesSelectorActivity fs;
 then initial it:
@@ -46,7 +46,7 @@ to load images to your app you should ask for WRITE_EXTERNAL_STORAGE permission,
         }
     }
    
-# API
+## API
 There is 4 functions you can use:
  * openFileToImageView(MimsType mimeType, ImageView imageView)
  * openFileToList(MimsType mimeType, List list)
@@ -54,7 +54,7 @@ There is 4 functions you can use:
                 to use this method you have to send a working "post" url of your server
  * getFileUri(MimsType mimeType, String outPutString)
  
-# License
+## License
 ```
 Copyright (C) 2020, Yossi Bukris
 
