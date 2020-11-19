@@ -1,8 +1,9 @@
 ### FilesSelector
 files selector libary
 
-## Repository
-Add this in your root `build.gradle` file (**not** your module `build.gradle` file):
+## Setup
+
+Step 1. Add it in your root build.gradle at the end of repositories:
 ```
 allprojects {
 	repositories {
@@ -12,14 +13,15 @@ allprojects {
 }
 ```
 
-## Dependency
-Add this to your module's `build.gradle` file (Note: version should match the jitpack badge above)
+Step 2. Add the dependency:
 ```
 dependencies {
 	implementation 'com.github.Amit7474:Dolly-SharedPreferences:1.0.0'
 }
+```
 
 ## Usage
+###### StepProgress Constructor:
 to create file selector from your activity define fs in your attributs -
         private FilesSelectorActivity fs;
 then initial it:
@@ -45,7 +47,7 @@ to load images to your app you should ask for WRITE_EXTERNAL_STORAGE permission,
            ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.WRITE_EXTERNAL_STORAGE}, PERMISSION_REQUEST_CODE);
         }
     }
-   
+    
 ## API
 There is 4 functions you can use:
  * openFileToImageView(MimsType mimeType, ImageView imageView)
