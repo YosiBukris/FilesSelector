@@ -17,6 +17,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
 
     <application>
+        android:usesCleartextTraffic="true"
         <activity android:name=".FilesSelector"></activity>
     </application>
 

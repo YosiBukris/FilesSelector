@@ -31,7 +31,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
-    implementation project(path: ':filesSelector')
+//    implementation project(path: ':filesSelector')
     testImplementation 'junit:junit:4.+'
-    implementation 'com.github.YosiBukris:FilesSelector:Tag'
+    implementation 'com.github.YosiBukris:FilesSelector:1.1.0'
 }

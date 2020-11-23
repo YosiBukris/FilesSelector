@@ -5,6 +5,7 @@ import androidx.core.app.ActivityCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -24,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
         this.requestPermission();
         this.myImage = findViewById(R.id.imageView);
         this.fs = new FilesSelector(this);
-        this.fs.openFileToImageView(MimsType.imageType, this.myImage);
+//        this.fs.openFileToImageView(MimsType.imageType, this.myImage);
+        this.fs.openFileToUpload(MimsType.anyType,"http://192.168.0.6:2000/api/files/","test","test");
     }
 
     @Override

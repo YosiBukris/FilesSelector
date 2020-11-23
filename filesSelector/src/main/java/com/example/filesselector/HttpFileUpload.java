@@ -4,12 +4,19 @@ import java.io.DataOutputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.ContentHandler;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLConnection;
+
+import android.os.AsyncTask;
 import android.util.Log;
 
-public class HttpFileUpload implements Runnable{
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class HttpFileUpload extends AsyncTask<FileInputStream, Void, Void> implements Runnable{
     URL connectURL;
     String responseString;
     String Title;
@@ -29,10 +36,21 @@ public class HttpFileUpload implements Runnable{
 
     void Send_Now(FileInputStream fStream){
         fileInputStream = fStream;
-        Sending();
+//        Sending();
     }
 
     void Sending(){
+
+    }
+
+    @Override
+    public void run() {
+        // TODO Auto-generated method stub
+    }
+
+    @Override
+    protected Void doInBackground(FileInputStream... fStream) {
+        fileInputStream = fStream[0];
         String iFileName = this.Title;
         String lineEnd = "\r\n";
         String twoHyphens = "--";
@@ -40,7 +58,7 @@ public class HttpFileUpload implements Runnable{
         String Tag="fSnd";
         try
         {
-            Log.e(Tag,"Starting Http File Sending to URL");
+            Log.e(Tag,"Starting Http File Sending to URL " + this.connectURL);
 
             // Open a HTTP connection to the URL
             HttpURLConnection conn = (HttpURLConnection)connectURL.openConnection();
@@ -128,10 +146,10 @@ public class HttpFileUpload implements Runnable{
         {
             Log.e(Tag, "IO error: " + ioe.getMessage(), ioe);
         }
+        return null;
     }
 
-    @Override
-    public void run() {
-        // TODO Auto-generated method stub
+    protected void onPostExecute(Void feed) {
+
     }
 }

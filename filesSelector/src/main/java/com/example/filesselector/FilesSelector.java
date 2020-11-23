@@ -158,6 +158,7 @@ public class FilesSelector implements FileSelectorInterface {
         }
         // Set your server page url (and the file title/description)
         HttpFileUpload hfu = new HttpFileUpload(this.urlString, this.fileTitle, this.fileDescription);
-        hfu.Send_Now(fstrm);
+        hfu.execute(fstrm);
+//        hfu.Send_Now(fstrm);
     }
 }
